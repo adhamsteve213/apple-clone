@@ -1,0 +1,22 @@
+{
+  "$schema": "https://appwrite.io/schemas/appwrite.json",
+  "projectId": "[YOUR_PROJECT_ID]",
+  "projectName": "Django Backend",
+  "functions": [
+    {
+      "$id": "django-backend",
+      "name": "Django Backend",
+      "runtime": "python-3.11",
+      "path": ".",
+      "entrypoint": "main.py",
+      "execute": ["any"],
+      "timeout": 15,
+      "enabled": true,
+      "logging": true,
+      "scopes": ["any"],
+      "events": [],
+      "schedule": "",
+      "deployment": ""
+    }
+  ]
+}
